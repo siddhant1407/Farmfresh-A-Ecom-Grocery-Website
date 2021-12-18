@@ -1,0 +1,63 @@
+<form class="back" #postForm="ngForm" (ngSubmit)="onCreatePost(postForm.value)">
+
+    <div class="container login-container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 login-form" >
+
+                <h2 class="v"> <b> <u>REGISTRATION</u> </b> </h2>
+                
+    
+
+                <div class="form-group text-left">
+                    <label>Name:  </label>
+                    <input  class="form-control" ngModel type="text" name="name" placeholder="Please Enter your Name">
+                </div>
+                <div class="form-group text-left">
+                    <label>Last Name</label>:  
+                    <input  class="form-control" ngModel type="text" name="lastname" placeholder="Please Enter your Last Name">
+                </div>
+                <div class="form-group text-left">
+                    <label>Email:  </label>
+                    <input  class="form-control" ngModel type="email" name="email" placeholder="Please Enter your Email">
+                </div>
+                <div class="form-group text-left">
+                    <label>Password:  </label>
+                    <input  class="form-control" ngModel type="password" name="password" placeholder="Please Enter your Password">
+                </div>
+                <div class="form-group text-left">
+                    <label>Address:  </label>
+                    <input  class="form-control" ngModel type="text" name="address" placeholder="Please Enter your Address">
+                </div>
+                <br>
+                <div class="form-group text-center">
+                    <button type="submit" class=" form-control btn btn-info ">
+                        REGISTER
+                    </button>
+                   
+                </div>
+                <br>
+                <h5 class="font-weight-bold text-uppercase mb-4 text-center">Follow Us:</h5>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fab fa-pinterest fa-lg white-text"> </i>
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="/main"> FarmFresh.com</a>
+                  </div>
+
+            
+            </div>
+            
+
+
+
+

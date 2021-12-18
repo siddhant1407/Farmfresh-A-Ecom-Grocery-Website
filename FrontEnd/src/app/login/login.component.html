@@ -1,0 +1,57 @@
+<form class="pi" #myform="ngForm" (submit)="loginClicked(myform)"> 
+    <div class="container login-container">
+                <div class="row">
+                    
+                    <div class="col-md-6 login-form-1">
+                        <h3 class="p"> <i> Welcome Back!</i></h3>
+                        <h3 class="bk"> <u> LOGIN</u> </h3>
+                        
+                            <div class="form-group">
+                                <input class="form-control" type="email" 
+                                name="email" ngModel placeholder="Enter Your Email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="password" 
+                                name="password" ngModel placeholder="Enter Your Password" id="password">
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary form-control " value="Login" />
+                            </div>
+                            <div class="form-group text-center">
+                                <a href="#" class=" text-primary"> <u>Forget Password?</u> </a>
+                            </div>
+                            <hr>
+                                                        
+                            <h5><p class="text-center underlineHover">Dont't Have an Account Yet?</p></h5>
+                            <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            
+                            <button class="btn btn-warning">
+                                <a  routerLink="/register" >
+                                    <h6>JOIN US! REGISTER</h6> 
+                                </a> 
+
+                            </button>
+                            
+                    </div>
+                    <div class="col-md-6 login-form-2">
+                        <div class="login-logo">
+                            <img src="../../assets/Logo/logo10.jpg" alt=""/>
+                        </div>
+                        <h3> <u class="bk"> Sign in With:</u></h3>
+                            
+                        <hr class="my-4">
+                        <button class="btn btn-lg btn-google btn-block text-uppercase" 
+                        type="submit"><i class="fab fa-google mr-2"></i> Google</button>
+                        <button class="btn btn-lg btn-facebook btn-block text-uppercase" 
+                        type="submit"><i class="fab fa-facebook-f mr-2"></i>Facebook</button>
+                        <button class="btn btn-lg btn-linkedin btn-block text-uppercase" 
+                        type="submit"><i class="fab fa fa-linkedin mr-2"></i>LinkedIn</button>
+                        
+                          
+                    </div>
+                </div>
+            </div>
+        </form>

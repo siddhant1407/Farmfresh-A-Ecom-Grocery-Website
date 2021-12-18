@@ -1,0 +1,50 @@
+  .navbar-light .navbar-brand {
+    color:red;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color:red;
+  }
+  
+  .navbar-toggler {
+    background:red;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+    color: red;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:red;
+  }
+  
+  .s
+  {
+      background-color:#f7f7f7;
+  }
+  
+  .m
+{
+   border-radius: 60%;
+}
+  
+  
+   

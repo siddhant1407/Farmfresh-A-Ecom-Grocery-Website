@@ -1,0 +1,89 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="text-center">
+            <i>
+                <b>
+                    <u>
+                        My Cart!
+                    </u>
+                </b>
+            </i>
+        </h2>
+
+        <table class="table table-bordered table-hover ">
+            <thead>
+                <tr>
+                    <th class="cen">Sr No.</th>
+                    <th class="cen">Name</th>
+                    <th class="cen">Image</th>
+                    <th class="cen">Quantity</th>
+                    <th class="cen">Price</th>
+                    <th class="cen">Total</th>
+                    <th class="cen">Remove</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr  *ngFor="let i of cart; let m = index">
+                  
+                    <td class="cen">{{m+1}}</td>
+                    <td class="cen"> <b>{{i.product_name}}</b> </td>
+
+                    <td class="cen">
+                        <img width="100px" height="100px" src="http://localhost:3004/{{i.product_image}}" alt="">
+                    </td>
+                    <td class="cen">{{i.product_count}}</td>
+                    <td class="cen">{{i.product_price}}</td>
+                    
+                    <td class="cen">{{i.product_count * i.product_price }}</td>
+
+                    <td class="cen">
+                            
+                        <button (click)="deleteCart(m)" class="btn-danger text-light">
+                            <i class="fa fa-trash-o"></i>
+                        
+                        </button>
+                    </td>
+
+                </tr>
+                <tr *ngIf="cart.length === 0">
+                    <th class="text-center" colspan="7"> 
+                         Your Shopping Cart is Empty :( !
+                        </th>
+                </tr>
+            </tbody>
+
+          
+
+            <tfoot>
+
+                <tr>
+                    <th colspan="5" class="text-right">
+                        Final Amount
+                    </th>
+                    <th colspan="2">
+                        {{final_total}} Rs
+                    </th>
+                   
+                </tr>
+
+            </tfoot>
+
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 cen">
+        <button (click)="placeOrder2()" class=" btn btn-success">
+             Place Order 
+        </button>
+        <br>
+        <br>
+        <button routerLink="/main" class="btn btn-outline-info">
+             <b>  Continue Shopping!  </b>  
+        </button>
+        
+    </div>
+</div>
+

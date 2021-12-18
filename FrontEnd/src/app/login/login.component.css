@@ -1,0 +1,93 @@
+.login-container{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+
+.login-logo img{
+    position: absolute;
+    width: 20%; 
+    margin-top: 19%;
+    background: darkslategray;
+    border-radius: 4.5rem;
+    padding: 1.5%;
+}
+
+.login-form-1{
+    padding: 7%;
+ background: rgba(219, 226, 219, 0.945);   
+     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-1 h3{
+    text-align: center;
+    margin-bottom:12%;
+    
+}
+
+.login-form-2{
+    padding: 9%;
+    background-image: url(../../assets/login-wall/2.1.jpg);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom:12%;
+    color: #fff;
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+  }
+  
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+  }
+
+.btn-linkedin {
+    color: white;
+    background-color:#336d88;
+  }
+
+.bk
+{
+    color: darkgreen;
+}
+
+.pi
+  {
+      background-color:goldenrod;
+  }
+.p
+  {
+     background-color: ;
+     font-family: Arial, Helvetica, sans-serif; 
+  }
+
+.underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+  }
+
+.c
+{
+    text-align: center;
+}  
+
+.m
+{
+    color:#e79c2a;
+}

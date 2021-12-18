@@ -1,0 +1,33 @@
+.login-container
+{
+    margin-top: 1%;
+    margin-bottom: 3% ;
+}
+
+.login-form{
+    
+    padding: 5%;
+    padding-bottom: 3%;
+    padding-top: 4%;
+
+ background: rgba(221, 236, 233, 0.897);   
+     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+/* background: rgb(219, 226, 219);   */
+.back
+{
+    background-image: url(../../assets/Registration-wall/1.1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: initial;
+    background-attachment: scroll;
+}
+
+.v
+{
+    text-align: center;
+    color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+
+
